@@ -689,6 +689,150 @@ body {
   padding: 0 25px 0 25px;
 }
 
+.card__items {
+  padding: 96px 0;
+  min-height: 598px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.card__items__hidden {
+  display: none;
+}
+
+.card__items__title {
+  text-align: center;
+  color: #222;
+  font-family: Lato;
+  font-size: 30px;
+  margin: 0 0 64px 0;
+}
+
+.card__item__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card__list__li {}
+
+.card__item__article {
+  display: flex;
+  gap: 31px;
+  background: #FFF;
+  filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+  max-width: 652px;
+  width: 100%;
+  height: 306px;
+  margin: 0 0 30px 0;
+}
+
+.card__item__img {
+  width: 262px;
+  height: 307px;
+}
+
+.card__item__txt__wrap {
+  font-weight: 400;
+  padding: 22px 29px 56px 0;
+  max-width: 390px;
+  width: 100%;
+  height: 306px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card__item__title {
+  line-height: 28.8px;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 24px;
+  margin: 0 0 42px 0;
+}
+
+.card__item__price {
+  line-height: 26.4px;
+  color: #575757;
+  font-size: 22px;
+  margin: 0 0 6px 0;
+}
+
+.card__item__price__value {
+  color: #EF5B70;
+}
+
+.card__item__color {
+  line-height: 26.4px;
+  color: #575757;
+  font-size: 22px;
+  margin: 0 0 6px 0;
+}
+
+.card__item__size {
+  line-height: 26.4px;
+  color: #575757;
+  font-size: 22px;
+  margin: 0 0 6px 0;
+}
+
+.card__item__quantity {
+  line-height: 26.4px;
+  color: #575757;
+  font-size: 22px;
+  margin: 0 0 6px 0;
+}
+
+.card__item__count {
+
+  border: 1px solid #EAEAEA;
+  padding: 2px 16px 0 17px;
+  margin: 0 0 0 24px;
+  max-width: 44px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card__item__svg__hidden {
+  display: none;
+}
+
+.card__item__svg {
+  position: absolute;
+  left: 298px;
+  top: 0px;
+  width: 18px;
+  height: 18px;
+  margin: 28px 28px 0 22px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card__item__svg:hover {
+  transform: scale(1.1);
+}
+
+.card__item__svg svg path {
+  transition: fill 0.3s ease;
+}
+
+.card__item__svg:hover svg path {
+  fill: #020202;
+}
+
+.card__item__svg:active {
+  transform: scale(1);
+}
+
+.card__item__svg svg path {
+  transition: fill 0.3s ease;
+}
+
+.card__item__svg:active svg path {
+  fill: #0202023f;
+}
+
+
+
 .suscribe {
   padding: 97px 0 126px 0;
   background-image: url(../img/subscribe__bgnd.jpg);
